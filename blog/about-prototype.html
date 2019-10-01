@@ -1,35 +1,31 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex,nofollow" />
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display|Ubuntu:300" rel="stylesheet">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style-blog.css">
+ <link rel="stylesheet" href="../css/blog-styles.css">
 
     <title>Hello, world!</title>
 </head>
 
 <body>
-
-    <header>
+<!-- Header -->
+<header>
         <div class="container-fluide">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <a class="navbar-brand" href="../blog.html">BY3D "Блог по 3D-технологиям" </a>
+                <a class="navbar-brand" href="#">BY3D</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="../blog.html">Главная<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="../page1.html">Главная<span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../main.html">К сайту BY3D.BY</a>
-                        </li>
-
+                                                 
                     </ul>
                 </div>
             </nav>
@@ -45,12 +41,12 @@
                     <h3 class="post-category"> Аддитивные технологии </h3>
                     <h2 class="post-title">Что необходимо для создания своего прототипа?</h2>
                     <p>Самый простой и доступный вариант - это купить 3D-принтер, печатающий по технологии FDM.</p><br><br>
-                    <div class="post-image-block"><img class="post-image" src="../images/blog/print.gif"></div><br><br>
+                    <div class="post-image-block"><img class="post-image" src="../images/blog/print.gif" alt="print"></div><br><br>
                     <p>FDM – пожалуй, наиболее простой и доступный метод трехмерного построения, что и обуславливает его высокую популярность.<br>
                         Высокий спрос на FDM-принтеры ведет к быстрому снижению цен на устройства и расходные материалы, наряду с развитием технологии в направлении удобства эксплуатации и повышения надежности.</p><br><br>
 
                     <b>Расходные материалы</b><br>
-                    <div class="post-image-block"><img class="post-image" src="../images/blog/plastic.jpg">
+                    <div class="post-image-block"><img class="post-image" src="../images/blog/plastic.jpg" alt="plastic">
                         <p>Катушки с нитью из PLA-пластика и готовая модель</p>
                     </div><br>
 
@@ -69,7 +65,7 @@
                         Стоит лишь помнить, что связующим элементом в композитных материалах служат термопластики – именно они и определяют пороги прочности, термоустойчивости и другие физические и химические свойства готовых моделей.<br><br><br>
 
                         <b>Экструдер</b></p><br>
-                    <div class="post-image-block"><img class="post-image" src="../images/blog/extruder.jpg">
+                    <div class="post-image-block"><img class="post-image" src="../images/blog/extruder.jpg" alt="extruder">
                         <p>Общая схема конструкции FDM-экструдера</p>
                     </div><br>
 
@@ -90,7 +86,7 @@
                         Некоторые модели FDM-принтеров могут использовать три или даже четыре экструдера.<br><br><br>
 
                         <b>Рабочая платформа</b></p><br>
-                    <div class="post-image-block"><img class="post-image" src="../images/blog/bed.jpg">
+                    <div class="post-image-block"><img class="post-image" src="../images/blog/bed.jpg" alt="bed">
                         <p>Фото нагревательной платформы с готовой моделью</p>
                     </div><br>
 
@@ -134,7 +130,7 @@
                         <b>Управление</b></p><br>
 
 
-                    <div class="post-image-block"><img class="post-image" src="../images/blog/control.jpg">
+                    <div class="post-image-block"><img class="post-image" src="../images/blog/control.jpg" alt="plate">
                         <p>Схема контроллера на основе Arduino с подключением дополнительных модулей</p>
                     </div><br>
                     <p>Управление работой FDM-принтера, включая регулировку температуры сопла и платформы, темпа подачи нити и работы пошаговых моторов, обеспечивающих позиционирование экструдера, выполняется достаточно простыми электронными контроллерами. Большинство контроллеров основываются на платформе Arduino, имеющей открытую архитектуру.<br><br>
@@ -193,21 +189,21 @@
     </div>
 
 
-    <footer>
-        <div class="container">
-            <div class="d-sm-flex justify-content-between">
-                <div class="footer-left">
-                    <a href="#">BY3D - Ваш надежный партнер!</a>
-                </div>
-                <div class="footer-right">
-                    <span>
-                        <p>+375(33)3325603 noet@tut.by</p>
-                        <a href="#"><img src="img/vk" alt="vk"> </a>
-                    </span>
-                </div>
-            </div>
+   <footer id="footer" class="midnight-blue">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          2019|AlexeyHk
         </div>
-    </footer>
+        <div class="col-sm-6">
+          <ul class="pull-right">
+            <li><a href="../page1.html">Главная</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
 
 
 

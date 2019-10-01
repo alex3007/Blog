@@ -1,35 +1,31 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex,nofollow" />
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display|Ubuntu:300" rel="stylesheet">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style-blog.css">
+    <link rel="stylesheet" href="../css/blog-styles.css">
 
     <title>Hello, world!</title>
 </head>
 
 <body>
-
+<!-- Header -->
     <header>
         <div class="container-fluide">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <a class="navbar-brand" href="../blog.html">BY3D "Блог по 3D-технологиям" </a>
+                <a class="navbar-brand" href="#">BY3D</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="../blog.html">Главная<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="../page1.html">Главная<span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../main.html">К сайту BY3D.BY</a>
-                        </li>
-
+                                                 
                     </ul>
                 </div>
             </nav>
@@ -58,7 +54,7 @@
 
                         Почему проблема возникла?<br><br>
                         Деформация основы распечатки проиходит из-за особенностей пластика. ABS и PLA платик охлаждается очень быстро и именно это может привести к отлипанию первого слоя.</p><br>
-                    <div class="post-image-block"><img class="post-image" src="../images/blog/problem1.jpeg">
+                    <div class="post-image-block"><img class="post-image" src="../images/blog/problem1.jpeg" alt="problem1">
                     </div><br>
                     <p><u>Решение проблемы 3D печати: Деформация распечатки</u><br><br>
                         1. Используйте платформу c подогревом. Самое простое решение для этой проблемы - использование платформы с подогревом (heatbed) и установка температуры, чуть ниже температуры плавления пластика. Если вы правильно установите температуру, первый слой не будет отлипать от платформы. Температура платформы принтера зачастую устанавливается слайсером автоматически. Рекомендуемая температура для вашего пластика указана сбоку на упаковке или катушке.<br>
@@ -85,7 +81,7 @@
                         Слои смещаются в средине распечатки.
                         Ремни принтера не достаточно туго закреплены. Верхняя пластина не прикреплена и двигается независимо от нижней пластины. Один из стержней в оси Z не идеально ровный</p><br>
 
-                    <div class="post-image-block"><img class="post-image" src="../images/blog/problem2.jpeg">
+                    <div class="post-image-block"><img class="post-image" src="../images/blog/problem2.jpeg" alt="problem2">
                     </div><br>
                     <p><u>Решение проблемы 3D печати: Смещение слоев в модели</u><br><br>
                         1. Проверьте ремни. Прежде всего, проверьте насколько туго натянуты ремни: они не должны висеть свободно, но и не должны быть слишком затянуты. Если вы потянете за ремни, то должны почувствовать легкое сопротивление. Если же вы почувствуете, что верхний ремень туже, чем нижний, это верный знак того, что они не достаточно хорошо натянуты.<br>
@@ -104,7 +100,7 @@
                         <u>Описание проблемы:</u><br><br>
                         При печати образуются «паутинки» или «волоски» между элементами модели.
                         Когда головка принтера перемещается по открытой повехности (без экструдирования), то есть переходит с одного объекта на другой, пластик стекает из сопла.</p><br>
-                    <div class="post-image-block"><img class="post-image" src="../images/blog/problem3.jpeg">
+                    <div class="post-image-block"><img class="post-image" src="../images/blog/problem3.jpeg" alt="problem3">
                     </div><br>
                     <p><u>Решение проблемы 3D печати: Волоски, паутина</u><br><br>
                         1. Включите втягивание(откат/retract). Втягивание - важный фактор для качества готовой модели и он может быть включен в слайсере. Он функционирует достаточно просто и работает по приципе втягивания нити назад в сопло перед тем как головка начинает двигаться. Суть заключается в том, что он предотвращает вытекание пластика из сопла, которые и создают «паутинку» между объектами.<br>
@@ -126,7 +122,7 @@
                         <u>Описание проблемы:</u><br><br>
                         Недостаточное экструдирование возникает, когда экструдер не может выдавливать достаточно материала (или не может делать это достаточно быстро). Это приводит к тому, что слои слишком тонкие, в слоях появляются нежелательные проплешины или слои полностью отсутсвуют).
                         У этой проблемы есть несколько причин. Прежде всего, диаметр нити может не соответсвовать диаметру, установленному в слайсере. Также, количество экструдированого материала может быть ниже из-за неправильного настроенной прошивки. Другая проблема - сопло может быть засорено и это будет провоцировать недостаточное экструдирование.</p><br>
-                    <div class="post-image-block"><img class="post-image" src="../images/blog/problem4.jpeg">
+                    <div class="post-image-block"><img class="post-image" src="../images/blog/problem4.jpeg" alt="problem4">
                     </div><br>
                     <p><u>Решение проблемы 3D печати: Недостаточное экструдирование</u><br><br>
                         1. Проверьте диаметр филамента. Начните с самого простого решения - проверьте настройки диаметра нити в слайсере. Если вы неуверены в диаметре нити и рекомендованной температуре, проверьте информацию на упаковке.<br>
@@ -146,7 +142,7 @@
                         <b>Избыточное экструдирование</b><br><br>
                         <u>Описание проблемы:</u><br><br>
                         Избыточное экструдирование означает, что принтер поставляет больше материала, чем необходимо. Это сказывается на том, что на распечатке есть излишки филамента.</p><br>
-                    <div class="post-image-block"><img class="post-image" src="../images/blog/problem5.jpeg">
+                    <div class="post-image-block"><img class="post-image" src="../images/blog/problem5.jpeg" alt="problem5">
                     </div><br>
                     <p><u>Решение проблемы 3D печати: Избыточное экструдирование</u><br><br>
                         Как правило, причина этой проблемы в том, что коэфициент экструдирования или потока в слайсере слишком высокий.<br>
@@ -165,22 +161,21 @@
     </div>
 
 
-    <footer>
-        <div class="container">
-            <div class="d-sm-flex justify-content-between">
-                <div class="footer-left">
-                    <a href="#">BY3D - Ваш надежный партнер!</a>
-                </div>
-                <div class="footer-right">
-                    <span>
-                        <p>+375(33)3325603 noet@tut.by</p>
-                        <a href="#"><img src="img/vk" alt="vk"> </a>
-                    </span>
-                </div>
-            </div>
+   <footer id="footer" class="midnight-blue">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          2019|AlexeyHk
         </div>
-    </footer>
-
+        <div class="col-sm-6">
+          <ul class="pull-right">
+            <li><a href="../page1.html">Главная</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
 
 
     <script src="../js/jquery-3.3.1.min.js"></script>
